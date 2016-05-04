@@ -1,0 +1,289 @@
+* {
+
+	font-family: Bitter, sans-serif;
+
+}
+
+body {
+
+	background: url("TheWall.jpg");
+	/* Background image is centered vertically and horizontally at all times */
+  	background-position: center center;
+  
+ 	 /* Background image doesn't tile */
+ 	 background-repeat: no-repeat;
+  
+  	/* Background image is fixed in the viewport so that it doesn't move when 
+	the content's height is greater than the image's height */
+  	background-attachment: fixed;
+  
+  	/* This is what makes the background image rescale based
+     on the container's size */
+  	background-size: cover;
+  
+ 	 /* Set a background color that will be displayed
+     while the background image is loading */
+  	background-color: #99F4F8;
+
+}
+
+.header {
+
+	display: block;
+	border-bottom: 2px solid 	#99F4F8;
+
+}
+
+.header a {
+
+	text-decoration: none;
+	color: #99F4F8
+
+}
+
+.header a:visited { 
+
+	text-decoration: none; 
+
+}
+
+.header a:hover { 
+
+	text-decoration: none; 
+
+}
+
+.header a:focus { 
+
+	text-decoration: none; 
+
+}
+
+.header a:hover, a:active { 
+
+	text-decoration: none; 
+
+}
+
+h2 {
+
+	font-size: 36px;
+	
+}
+
+.header h2, p {
+
+	display: inline-block;
+	color: 	#99F4F8;
+	text-shadow:
+    	3px 3px 0 #000,
+    	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+       	1px 1px 0 #000;
+
+
+}
+
+.header p {
+
+	margin-left: 70%;
+	text-shadow:
+   		-1px -1px 0 #000,  
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+     	1px 1px 0 #000;
+
+
+}
+
+.login {
+
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	display: inline-block;
+	padding: 40px;
+	color: 	#99F4F8;
+	margin-top: 20px;
+	text-shadow:
+    	3px 3px 0 #000,
+    	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+       	1px 1px 0 #000;
+    font-size: 24px;
+}
+
+.login form, p {
+
+	text-align:  center;
+
+}
+
+.login h3 {
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.login p {
+
+	text-shadow:
+   		-1px -1px 0 #000,  
+   		 1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	 1px 1px 0 #000;
+
+}
+
+.input_box {
+
+	display: block;
+	vertical-align: baseline;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+button {
+
+	display:block; 
+    width:20%; 
+    margin:0 auto; 
+
+}
+
+.register {
+
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	display: inline-block;
+	padding: 20px;
+	color: 	#99F4F8;
+	margin-top: 20px;
+	text-shadow:
+    	3px 3px 0 #000,
+    	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+       	1px 1px 0 #000;
+    font-size: 24px;
+
+}
+
+.register h3 {
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+input {
+
+	display: block;
+	vertical-align: baseline;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.message {
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FF3030;
+	text-shadow:
+    	3px 3px 0 #000,
+    	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+       	1px 1px 0 #000;
+    font-size: 24px;
+
+}
+
+textarea {
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+.form_register {
+
+	margin-top: 20px;
+
+}
+
+.message_log {
+
+	/*all: none;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #99F4F8;
+	text-shadow:
+   		-1px -1px 0 #000,  
+   		 1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	 1px 1px 0 #000;
+    
+}
+
+.message_format {
+
+    font-size: 24px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.messagePost h3, p, h6 {
+
+	float:  left;
+	display: block;
+	margin: 5px;
+	font-size: 14px;
+
+}
+
+.messagePost p {
+
+	text-shadow:
+   		-1px -1px 0 #000,  
+   		 1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	 1px 1px 0 #000;
+	
+}
+
+.comment h5, p, h6{
+
+	float:  left;
+	display: block;
+	margin: 5px;
+	font-size: 14px;
+
+}
+
+.comment {
+
+    font-size: 18px;
+
+}
+
+.comment_form {
+
+}
